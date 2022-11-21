@@ -102,17 +102,18 @@ const Movies = () => {
       ))}
       </div>
 
-      <div>Selected Movie</div>
+      
       <div>
         {singleMovie!=='' && 
-        <>{singleMovie.id}-{singleMovie.name}</>
+        <> <div>Selected Movie</div>
+        {singleMovie.id}-{singleMovie.name}</>
         }
       </div>
 
-
+{/* 
       <button onClick={e=>{
         console.log(get_all_movies)
-      }}>Show All</button>
+      }}>Show All</button> */}
     </div>
 
   )
