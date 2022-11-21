@@ -108,6 +108,11 @@ const Movies = () => {
         <>{singleMovie.id}-{singleMovie.name}</>
         }
       </div>
+
+
+      <button onClick={e=>{
+        console.log(get_all_movies)
+      }}>Show All</button>
     </div>
 
   )
